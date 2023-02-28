@@ -1,10 +1,7 @@
 import styled from "styled-components";
-import InputText from "../atoms/InputText";
-import SmallLabel from "../atoms/SmallLabel";
 import GroupText from "./GroupText";
 import HerramientasAdmin from "./HerramientasAdmin";
 
-import OpcionesNavAdmin from "./OpcionesNavAdmin";
 const StyledWrapperContainerLeft = styled.div`
   width: 50%;
   height: 100%;

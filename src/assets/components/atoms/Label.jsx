@@ -11,6 +11,7 @@ margin-left:10px;
 color: ${props => props.estilo ? '#000' : '#fff'};
 font-size: ${props => props.pequenio ? '14px' : '24px'};
 `;
+
 function Label({msn, estilo , pequenio}) {
     return ( 
         <StyledLabel estilo={estilo} pequenio={pequenio}>{msn}</StyledLabel>
