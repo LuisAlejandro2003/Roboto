@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import SmallLabel from '../atoms/SmallLabel';
+
 import OpcionesNavAdmin from './OpcionesNavAdmin';
 import Label from '../atoms/Label';
 const StyledWrapperContainerGray = styled.div`
