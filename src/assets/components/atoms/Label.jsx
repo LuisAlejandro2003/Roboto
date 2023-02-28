@@ -9,11 +9,11 @@ line-height: 33px;
 
 margin-left:10px;
 color: ${props => props.estilo ? '#000' : '#fff'};
-font-size: ${props => props.pequeno ? '14px' : '24px'};
+font-size: ${props => props.pequenio ? '14px' : '24px'};
 `;
-function Label({msn, estilo , pequeno}) {
+function Label({msn, estilo , pequenio}) {
     return ( 
-        <StyledLabel estilo={estilo} pequeno={pequeno}>{msn}</StyledLabel>
+        <StyledLabel estilo={estilo} pequenio={pequenio}>{msn}</StyledLabel>
      );
 }
 

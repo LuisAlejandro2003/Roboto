@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import SmallLabel from '../atoms/SmallLabel';
 import OpcionesNavAdmin from './OpcionesNavAdmin';
+import Label from '../atoms/Label';
 const StyledWrapperContainerGray = styled.div`
  padding:1.5%;
   width: 52%;
@@ -15,9 +16,10 @@ const StyledWrapperContainerGray = styled.div`
 const HerramientasAdmin = () => {
     return ( 
         <>
-        <OpcionesNavAdmin msn="Salir" estilo={true} pequeno={false} ></OpcionesNavAdmin>
+        
+        <OpcionesNavAdmin msn="Herramienta respecto al sistema de referencia" estilo={true} ></OpcionesNavAdmin>
         <StyledWrapperContainerGray>
-        <OpcionesNavAdmin estilo={true}  msn="[X, Y, Z] mm |  Rot[Z,Y', Z' ']deg - Adept/Comau/Kawasaki"></OpcionesNavAdmin>
+        <OpcionesNavAdmin estilo={true} pequenio={true}  msn="[X, Y, Z] mm |  Rot[Z,Y', Z' ']deg - Adept/Comau/Kawasaki"></OpcionesNavAdmin>
         </StyledWrapperContainerGray>
         </>
      );

@@ -23,6 +23,7 @@ const StyledWrapperContainerRight = styled.div`
   justify-content: space-around;
   align-items: center;
 `;
+
 const StyledWrapperContainer = styled.div`
   width: 100%;
   height: 100%;
