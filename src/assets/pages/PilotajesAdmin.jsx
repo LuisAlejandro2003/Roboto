@@ -7,7 +7,7 @@ const PilotajesAdmin = () => {
         <>
          <Navbar></Navbar>
          <BodyPilotajesAdmin></BodyPilotajesAdmin>
-         <ListEnlaces></ListEnlaces>
+    
         </>
       
      );

@@ -3,11 +3,11 @@ import InputText from "../atoms/InputText";
 const StyledWrapperContainerText = styled.div`
   width: 70%;
   height: 100%;
- padding-top:2%;
+ padding-top:3%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  
+  border: 2px solid yellow;
 `;
 const GroupText = () => {
     return ( 
@@ -15,8 +15,7 @@ const GroupText = () => {
         <InputText></InputText>
         <InputText></InputText>
         <InputText></InputText>
-        </StyledWrapperContainerText>
-       
+        </StyledWrapperContainerText> 
      );
 }
  
