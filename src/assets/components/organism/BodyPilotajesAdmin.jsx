@@ -1,6 +1,21 @@
 import styled from "styled-components";
 import GroupText from "../molecules/GroupText";
 import HerramientasAdmin from "../molecules/HerramientasAdmin";
+const BodyPilotajesAdmin = () => {
+  return (
+      <StyledWrapperContainer>
+  
+        <StyledWrapperContainerLeft>
+         <HerramientasAdmin></HerramientasAdmin>
+         <GroupText></GroupText>
+        </StyledWrapperContainerLeft>
+
+        <StyledWrapperContainerRight>
+          <h1>Holaa</h1>
+        </StyledWrapperContainerRight>
+        </StyledWrapperContainer>
+  );
+};
 const StyledWrapperContainerLeft = styled.div`
   width: 50%;
   height: 100%;
@@ -29,20 +44,6 @@ const StyledWrapperContainer = styled.div`
   padding-top:10%
 `;
 
-const BodyPilotajesAdmin = () => {
-  return (
-      <StyledWrapperContainer>
-  
-        <StyledWrapperContainerLeft>
-         <HerramientasAdmin></HerramientasAdmin>
-         <GroupText></GroupText>
-        </StyledWrapperContainerLeft>
 
-        <StyledWrapperContainerRight>
-          <h1>Holaa</h1>
-        </StyledWrapperContainerRight>
-        </StyledWrapperContainer>
-  );
-};
 
 export default BodyPilotajesAdmin;
