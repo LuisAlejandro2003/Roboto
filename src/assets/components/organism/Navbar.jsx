@@ -4,7 +4,7 @@ import OpcionesNavAdmin from "../molecules/OpcionesNavAdmin";
 const StyledWrapperContainerLabel = styled.div`
 width:60%;
 height:100%;
-/* border: 2px solid green; */
+border: 2px solid green;
  display: flex;
  justify-content: space-around;
  align-items:center;
@@ -13,7 +13,7 @@ height:100%;
 const StyledWrapperContainerInicio = styled.div`
 width:20%;
 height:100%;
-/* border: 2px solid blue; */
+border: 2px solid blue;
 display: flex;
 justify-content: space-around;
 align-items:center;
@@ -23,7 +23,7 @@ align-items:center;
 const StyledWrapperContainerLogo = styled.div`
 width:20%;
 height:100%;
-/* border: 2px solid green; */
+border: 2px solid yellow;
 display: flex;
  justify-content: center;
  align-items:center;
@@ -32,6 +32,7 @@ display: flex;
 const StyledWrapperContainer = styled.div`
 width: 100%;
 height: 85px;
+border: 3px solid black;
 background: #E12A45;
  display: flex;
  justify-content: end;
@@ -48,13 +49,19 @@ const Navbar = () => {
             <StyledWrapperContainerInicio>
                 <OpcionesNavAdmin msn="Inicio"></OpcionesNavAdmin>
             </StyledWrapperContainerInicio>
+
+
              <StyledWrapperContainerLabel>
+
                 <OpcionesNavAdmin msn="Registro"></OpcionesNavAdmin>
                 <OpcionesNavAdmin msn="Usuarios"></OpcionesNavAdmin>
                 <OpcionesNavAdmin msn="Historial"></OpcionesNavAdmin>
                 <OpcionesNavAdmin msn="Solicitudes"></OpcionesNavAdmin>
                 <OpcionesNavAdmin msn="Salir" ></OpcionesNavAdmin>
+                
             </StyledWrapperContainerLabel>
+
+
         </StyledWrapperContainer>  
      );
 }
