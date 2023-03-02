@@ -27,7 +27,7 @@ const HerramientasAdmin = () => {
     return ( 
         <>
         <ContainerLabel>
-        <OpcionesNavAdmin msn="Herramienta respecto al sistema de referencia" estilo={true} ></OpcionesNavAdmin>
+        <OpcionesNavAdmin msn="Herramienta respecto al sistema de referenciaaaa" estilo={true} ></OpcionesNavAdmin>
         </ContainerLabel>
         <StyledWrapperContainerGray>
         <OpcionesNavAdmin estilo={true} pequenio={true}  msn="[X, Y, Z] mm |  Rot[Z,Y', Z' ']deg - Adept/Comau/Kawasaki"></OpcionesNavAdmin>
