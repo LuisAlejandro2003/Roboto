@@ -1,8 +1,8 @@
 import styled from "styled-components";
-
-import GroupText from "./GroupText";
-import HerramientasAdmin from "./HerramientasAdmin";
-
+import GroupText from "../molecules/GroupText";
+import HerramientasAdmin from "../molecules/HerramientasAdmin";
+import ListEnlaces from "./ListEnlaces";
+import RangeGroup from "../molecules/RangeGroup";
 const StyledWrapperContainerLeft = styled.div`
   width: 50%;
   height: 100%;
@@ -33,10 +33,8 @@ const StyledWrapperContainer = styled.div`
 
 const BodyPilotajesAdmin = () => {
   return (
-    <>
-      <div>Pilotajes</div>
       <StyledWrapperContainer>
-    
+  
         <StyledWrapperContainerLeft>
          <HerramientasAdmin></HerramientasAdmin>
          <GroupText></GroupText>
@@ -46,8 +44,6 @@ const BodyPilotajesAdmin = () => {
           <h1>Holaa</h1>
         </StyledWrapperContainerRight>
         </StyledWrapperContainer>
-      
-    </>
   );
 };
 
