@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import GroupText from "../molecules/GroupText";
 import HerramientasAdmin from "../molecules/HerramientasAdmin";
+import ListEnlaces from "./ListEnlaces";
 const StyledWrapperContainerLeft = styled.div`
   width: 50%;
   height: 100%;
@@ -36,6 +37,7 @@ const BodyPilotajesAdmin = () => {
         <StyledWrapperContainerLeft>
          <HerramientasAdmin></HerramientasAdmin>
          <GroupText></GroupText>
+         <ListEnlaces></ListEnlaces>
         </StyledWrapperContainerLeft>
 
         <StyledWrapperContainerRight>
