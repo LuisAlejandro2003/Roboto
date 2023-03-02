@@ -10,7 +10,7 @@ const IntegerStep = () => {
       <Col span={12}>
         <Slider
           min={1}
-          max={20}
+          max={180}
           onChange={onChange}
           value={typeof inputValue === 'number' ? inputValue : 0}
         />
@@ -18,7 +18,7 @@ const IntegerStep = () => {
       <Col span={4}>
         <InputNumber
           min={1}
-          max={20}
+          max={180}
           style={{
             margin: '0 16px',
           }}
@@ -39,27 +39,7 @@ const DecimalStep = () => {
   };
   return (
     <Row>
-      <Col span={12}>
-        <Slider
-          min={0}
-          max={1}
-          onChange={onChange}
-          value={typeof inputValue === 'number' ? inputValue : 0}
-          step={0.01}
-        />
-      </Col>
-      <Col span={4}>
-        <InputNumber
-          min={0}
-          max={1}
-          style={{
-            margin: '0 16px',
-          }}
-          step={0.01}
-          value={inputValue}
-          onChange={onChange}
-        />
-      </Col>
+      
     </Row>
   );
 };

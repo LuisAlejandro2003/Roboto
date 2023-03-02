@@ -22,7 +22,7 @@ const StyledWrapperContainer = styled.div`
   justify-content: space-around;
   align-items: center;
   padding-top:3%;
-  border: 2px solid green;
+  /* border: 2px solid green; */
 `;
 const ContainerLabel = styled.div`
   display: flex;
@@ -30,7 +30,7 @@ const ContainerLabel = styled.div`
   height: 33%;
   justify-content: space-around;
   align-items: center;
-  border: 2px solid goldenrod;
+  /* border: 2px solid goldenrod; */
 `;
 
 const ListEnlaces = () => {

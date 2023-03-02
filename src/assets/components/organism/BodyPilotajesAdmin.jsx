@@ -2,7 +2,25 @@ import styled from "styled-components";
 import GroupText from "../molecules/GroupText";
 import HerramientasAdmin from "../molecules/HerramientasAdmin";
 import ListEnlaces from "./ListEnlaces";
-import Range from "../atoms/Range";
+import RangeGroup from "../molecules/RangeGroup";
+
+const BodyPilotajesAdmin = () => {
+  return (
+      <StyledWrapperContainer>
+  
+        <StyledWrapperContainerLeft>
+         <HerramientasAdmin></HerramientasAdmin>
+         <GroupText></GroupText>
+         <ListEnlaces></ListEnlaces>
+        </StyledWrapperContainerLeft>
+
+        <StyledWrapperContainerRight>
+        <RangeGroup></RangeGroup>
+        </StyledWrapperContainerRight>
+        </StyledWrapperContainer>
+  );
+};
+
 const StyledWrapperContainerLeft = styled.div`
   width: 50%;
   height: 100%;
@@ -31,21 +49,6 @@ const StyledWrapperContainer = styled.div`
   padding-top:10%
 `;
 
-const BodyPilotajesAdmin = () => {
-  return (
-      <StyledWrapperContainer>
-  
-        <StyledWrapperContainerLeft>
-         <HerramientasAdmin></HerramientasAdmin>
-         <GroupText></GroupText>
-         <ListEnlaces></ListEnlaces>
-        </StyledWrapperContainerLeft>
 
-        <StyledWrapperContainerRight>
-          <Range></Range>
-        </StyledWrapperContainerRight>
-        </StyledWrapperContainer>
-  );
-};
 
 export default BodyPilotajesAdmin;
