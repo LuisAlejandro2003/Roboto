@@ -1,8 +1,10 @@
 import styled from "styled-components";
 import GroupText from "../molecules/GroupText";
 import HerramientasAdmin from "../molecules/HerramientasAdmin";
+
 import ListEnlaces from "./ListEnlaces";
 import RangeGroup from "../molecules/RangeGroup";
+
 
 const BodyPilotajesAdmin = () => {
   return (
@@ -11,30 +13,48 @@ const BodyPilotajesAdmin = () => {
         <StyledWrapperContainerLeft>
          <HerramientasAdmin></HerramientasAdmin>
          <GroupText></GroupText>
+
          <ListEnlaces></ListEnlaces>
         </StyledWrapperContainerLeft>
 
         <StyledWrapperContainerRight>
         <RangeGroup></RangeGroup>
+
+        </StyledWrapperContainerLeft>
+
+        <StyledWrapperContainerRight>
+          <h1>Holaa</h1>
+
         </StyledWrapperContainerRight>
         </StyledWrapperContainer>
   );
 };
 
 const StyledWrapperContainerLeft = styled.div`
-  width: 50%;
+width: 50%;
   height: 100%;
- 
+  border: 2px solid blue;
   flex-direction:column;
   display: flex;
   justify-content: space-around;
   align-items: center;
 `;
 
+
+
+        <StyledWrapperContainerRight>
+          <h1>Holaa como estas</h1>
+        </StyledWrapperContainerRight>
+        </StyledWrapperContainer>
+  );
+};
+
+
+
 const StyledWrapperContainerRight = styled.div`
   width: 50%;
   height: 100%;
-
+  border: 2px solid green;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -42,7 +62,7 @@ const StyledWrapperContainerRight = styled.div`
 const StyledWrapperContainer = styled.div`
   width: 100%;
   height: 100%;
-
+border: 5px solid red;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -50,5 +70,5 @@ const StyledWrapperContainer = styled.div`
 `;
 
 
-
 export default BodyPilotajesAdmin;
+

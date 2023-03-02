@@ -1,27 +1,20 @@
-import styled from "styled-components";
-const StyledButton = styled.button`
+
+import styled, {css} from "styled-components";
+
+const StyledButton=styled.button`
+width: 100px;
+height: 26px;
 background: #D74A4A;
-border-radius: 12px;
-text-align: center;
-font-size: 20px;
-font-family: Noto Serif;
-color: #fff;
-padding: 2% 20%;
-border: none;
-margin-top:4% ;
-&:hover{
-    background: #FDEDED;
-    border: none;
-    color: black;
-}
+border-radius:20px;
 `;
 
-function Button({name}) {
+const Button = (type,name) => {
     return ( 
-    <>
-    <StyledButton type={"button"}>{name}</StyledButton>
-    </>
+        <>
+        <StyledButton type={type}>{name}</StyledButton>
+        </>
      );
 }
+ 
 
 export default Button;

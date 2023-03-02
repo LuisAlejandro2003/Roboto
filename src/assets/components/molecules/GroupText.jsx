@@ -14,7 +14,7 @@ const GroupText = () => {
         <StyledWrapperContainerText> 
         <InputText></InputText>
         <InputText></InputText>
-        <InputText></InputText>
+        <InputText></InputText> 
         </StyledWrapperContainerText>
        
      );
