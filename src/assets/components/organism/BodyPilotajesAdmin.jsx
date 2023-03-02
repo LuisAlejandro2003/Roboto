@@ -2,6 +2,7 @@ import styled from "styled-components";
 import GroupText from "../molecules/GroupText";
 import HerramientasAdmin from "../molecules/HerramientasAdmin";
 import ListEnlaces from "./ListEnlaces";
+import Range from "../atoms/Range";
 const StyledWrapperContainerLeft = styled.div`
   width: 50%;
   height: 100%;
@@ -41,7 +42,7 @@ const BodyPilotajesAdmin = () => {
         </StyledWrapperContainerLeft>
 
         <StyledWrapperContainerRight>
-          <h1>Holaa</h1>
+          <Range></Range>
         </StyledWrapperContainerRight>
         </StyledWrapperContainer>
   );
